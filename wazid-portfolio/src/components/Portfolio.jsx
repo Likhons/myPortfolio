@@ -1,11 +1,11 @@
 import { useState } from 'react';
 
 const projects = [
-  { id: 1, category: 'web', img: '/portfolio1.jpg', title: 'Web Design', desc: 'A modern responsive website with clean UI design.' },
-  { id: 2, category: 'web', img: '/portfolio2.jpg', title: 'Landing Page', desc: 'Fully responsive landing page with animations.' },
-  { id: 3, category: 'graphic', img: '/portfolio3.jpg', title: 'Graphic Design', desc: 'Creative poster and banner design for social media.' },
-  { id: 4, category: 'web', img: '/portfolio4.jpg', title: 'Portfolio Site', desc: 'Personal portfolio with dark theme and smooth animations.' },
-  { id: 5, category: 'graphic', img: '/portfolio5.jpg', title: 'Brand Identity', desc: 'Logo and branding design for a local business.' },
+  { id: 1, category: 'web', img: `${import.meta.env.BASE_URL}portfolio1.jpg`, title: 'Web Design', desc: 'A modern responsive website with clean UI design.' },
+  { id: 2, category: 'web', img: `${import.meta.env.BASE_URL}portfolio2.jpg`, title: 'Landing Page', desc: 'Fully responsive landing page with animations.' },
+  { id: 3, category: 'graphic', img: `${import.meta.env.BASE_URL}portfolio3.jpg`, title: 'Graphic Design', desc: 'Creative poster and banner design for social media.' },
+  { id: 4, category: 'web', img: `${import.meta.env.BASE_URL}portfolio4.jpg`, title: 'Portfolio Site', desc: 'Personal portfolio with dark theme and smooth animations.' },
+  { id: 5, category: 'graphic', img: `${import.meta.env.BASE_URL}portfolio5.jpg`, title: 'Brand Identity', desc: 'Logo and branding design for a local business.' },
 ];
 
 function Portfolio() {

@@ -117,7 +117,6 @@ function App() {
       <Skills />
       <Services />
      <Github />
-     q
      <Portfolio />
       <Contact />
       <Footer />

@@ -2,7 +2,7 @@ function About() {
   return (
     <section className="about" id="about">
       <div className="about-img">
-        <img src="/about.png" alt="About Wazid" loading="lazy" />
+      <img src={`${import.meta.env.BASE_URL}about.png`} alt="About Wazid" loading="lazy" />
       </div>
       <div className="about-content">
         <h2 className="heading">About <span>Me</span></h2>

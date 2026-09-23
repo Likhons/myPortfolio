@@ -41,16 +41,16 @@ function Home() {
           ))}
         </div>
         <div className="home-buttons">
-          <a href="/download-cv.pdf" className="btn" download>
-            <i className="bx bx-download"></i> Download CV
-          </a>
-          <a href="#contact" className="btn btn-outline">Hire Me</a>
-        </div>
+  <a href={`${import.meta.env.BASE_URL}download-cv.pdf`} className="btn" download>
+    <i className="bx bx-download"></i> Download CV
+  </a>
+  <a href="#contact" className="btn btn-outline">Hire Me</a>
+</div>
       </div>
 
       <div className="home-img">
         <div className="img-glow"></div>
-        <img src="/dev-5.png" alt="Wazid Hasan Likhon" loading="eager" />
+        <img src={`${import.meta.env.BASE_URL}dev-5.png`} alt="Wazid Hasan Likhon" loading="eager" />
       </div>
     </section>
   );
